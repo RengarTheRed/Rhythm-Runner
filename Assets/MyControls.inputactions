@@ -1,0 +1,78 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "31d34780-ab5d-4865-82c8-d500d06a0544",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "1343c486-9fb4-472e-9dbd-558adfe2df5e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "4a6478bf-7e9e-485d-96a8-8489d85dad12",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "3880e881-4521-4080-9f93-a0eeeb8606b9",
+                    "path": "<HID::HORI CO.,LTD. Taiko Controller>/button11",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "up",
+                    "id": "51b9454d-a35d-4dcb-8047-05b238beb33b",
+                    "path": "<HID::HORI CO.,LTD. Taiko Controller>/button12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "24000fac-2636-43e8-ae13-f97451e7214e",
+                    "path": "<HID::HORI CO.,LTD. Taiko Controller>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "38c6c197-1dfd-4bc8-9706-fc757edc537d",
+                    "path": "<HID::HORI CO.,LTD. Taiko Controller>/button8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
